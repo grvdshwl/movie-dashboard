@@ -2,6 +2,10 @@
 
 body{
   background-color: lightgrey;
+  font-family: 'Roboto Condensed';
 }
 
 
+*{
+  box-sizing: border-box;
+}

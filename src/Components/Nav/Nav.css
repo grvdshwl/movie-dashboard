@@ -23,16 +23,39 @@ margin-bottom: 30px
   font-size: 20px;
 }
 
-form{
+.form-bar{
 	
-	margin-left: 4vw;
+  width: 80vw;
+  
+  display: flex;
+  justify-content: space-around;
+
 }
 
 #searchbox{
-  height: 5vh;
-  width: 40vw;
-  border-radius: 20px;
-  outline: none;
+  width: 800px;
+}
+
+.sign-out-button{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+
+
+.sign-out-button .sign-out{
+  color: grey;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: bold;
+  transition: all ease 0.5s ;
+}
+
+.sign-out-button .sign-out:hover{
+  color: black;
+  transform: scale(1.1);
 }
 
 #btn{

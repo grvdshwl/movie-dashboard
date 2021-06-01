@@ -1,0 +1,12 @@
+.sign-out-button .sign-out{
+    color: grey;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    transition: all ease 0.5s ;
+  }
+  
+  .sign-out-button .sign-out:hover{
+    color: black;
+    transform: scale(1.1);
+  }

@@ -1,14 +1,16 @@
 import React from "react";
+import CustomButton from "../custom-button/custom-button.component";
+import FormInput from "../form-input/form-input.component";
 
 
 const FormBar = ({changeContent,changeSearchData}) =>{
 
 	return(
 
-			<form onSubmit = {(event)=>changeContent(event.preventDefault())}>
-		          <input onChange = {(event) =>changeSearchData(event.target.value)}
-		          id="searchbox" type="text" placeholder="search here" required/>
-		          <input   id="btn" type="submit" value="Search!"/>
+			<form className="form-bar" onSubmit = {(event)=>changeContent(event.preventDefault())}>
+		          <FormInput id="searchbox" handleChange = {(event) =>changeSearchData(event.target.value)}
+		           type="text" placeholder="search here" required/>
+		          <CustomButton    type="submit" > search!</CustomButton>
 		     </form> 
 		)
 
