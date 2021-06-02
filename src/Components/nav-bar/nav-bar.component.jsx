@@ -5,7 +5,7 @@ import "./nav-bar.styles.css";
 
 const NavBar = ()=>(
     <div className="nav-bar">
-        <h2> Movies Dashboard</h2>
+        <h2> Movies Dashboard...</h2>
         <FormBar/>
         
     </div>
